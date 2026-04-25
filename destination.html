@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destination Details | Incredible India Trails</title>
+  <meta
+    name="description"
+    content="Explore destination details for India's most loved tourist places, including attractions, best time to visit, budgets, and travel tips."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="destination">
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">IT</span>
+          <span>
+            <strong>Incredible India Trails</strong>
+            <small>Curated Indian journeys</small>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" data-nav-menu>
+          <a href="index.html">Home</a>
+          <a href="destinations.html">Destinations</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">
+            <span class="theme-toggle__icon">◐</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section destination-layout">
+        <div class="container" data-destination-detail></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand--footer" href="index.html">
+            <span class="brand-mark">IT</span>
+            <span>
+              <strong>Incredible India Trails</strong>
+              <small>Made for curious travelers</small>
+            </span>
+          </a>
+          <p>Plan better Indian trips with curated details, inspiration, and practical travel advice.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="destinations.html">Destinations</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>More Ideas</h3>
+          <a href="destinations.html?type=Heritage">Heritage Trips</a>
+          <a href="destinations.html?type=Mountains">Mountain Trips</a>
+          <a href="destinations.html?type=Beaches">Beach Trips</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incredible India Trails | Explore Incredible India</title>
+  <meta
+    name="description"
+    content="Discover iconic destinations across India, save your favorites, and plan unforgettable trips with Incredible India Trails."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">IT</span>
+          <span>
+            <strong>Incredible India Trails</strong>
+            <small>Curated Indian journeys</small>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" data-nav-menu>
+          <a href="index.html" class="active">Home</a>
+          <a href="destinations.html">Destinations</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">
+            <span class="theme-toggle__icon">◐</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__image"></div>
+        <div class="hero__overlay"></div>
+        <div class="container hero__content reveal">
+          <p class="eyebrow">Journey through culture, color, and wonder</p>
+          <h1>Explore Incredible India</h1>
+          <p class="hero__lead">
+            From royal cities and Himalayan escapes to sacred riverfronts and tropical backwaters,
+            discover the best destinations across India in one beautifully crafted travel guide.
+          </p>
+          <form class="hero__search" data-home-search>
+            <label class="sr-only" for="home-search">Search destinations</label>
+            <input
+              id="home-search"
+              name="search"
+              type="search"
+              placeholder="Search Jaipur, Goa, Manali..."
+              autocomplete="off"
+            >
+            <button type="submit">Search Destinations</button>
+          </form>
+          <div class="hero__stats">
+            <article>
+              <strong>25+</strong>
+              <span>Iconic itineraries</span>
+            </article>
+            <article>
+              <strong>15</strong>
+              <span>Indian states covered</span>
+            </article>
+            <article>
+              <strong>4.9/5</strong>
+              <span>Traveler satisfaction</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Featured escapes</p>
+            <h2>Handpicked places that define India’s spirit</h2>
+            <a class="text-link" href="destinations.html">View all destinations</a>
+          </div>
+          <div class="card-grid featured-grid" data-featured-grid></div>
+        </div>
+      </section>
+
+      <section class="section section--tinted">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Popular categories</p>
+            <h2>Find the kind of journey you are craving</h2>
+          </div>
+          <div class="category-grid">
+            <a class="category-card reveal" href="destinations.html?type=Mountains">
+              <span class="category-card__icon">▲</span>
+              <h3>Mountains</h3>
+              <p>Snow-dusted valleys, pine trails, and scenic road trips in the Himalayas.</p>
+            </a>
+            <a class="category-card reveal" href="destinations.html?type=Beaches">
+              <span class="category-card__icon">◉</span>
+              <h3>Beaches</h3>
+              <p>Sunset coastlines, island moods, and breezy cafés by the Arabian Sea.</p>
+            </a>
+            <a class="category-card reveal" href="destinations.html?type=Heritage">
+              <span class="category-card__icon">◆</span>
+              <h3>Heritage</h3>
+              <p>Palaces, forts, and living history wrapped in timeless architecture.</p>
+            </a>
+            <a class="category-card reveal" href="destinations.html?type=Spiritual">
+              <span class="category-card__icon">✦</span>
+              <h3>Spiritual</h3>
+              <p>Sacred rivers, temple towns, and soulful experiences rooted in tradition.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-panel">
+          <div class="split-panel__content reveal">
+            <p class="eyebrow">Why travelers trust us</p>
+            <h2>Trip inspiration with practical planning built in</h2>
+            <p>
+              We blend destination storytelling with real planning details like ideal travel season,
+              sample budgets, must-see highlights, and smart local tips so you can turn inspiration into action.
+            </p>
+            <ul class="check-list">
+              <li>Curated destination guides designed for first-time and repeat explorers</li>
+              <li>Budget-friendly ideas for couples, families, backpackers, and culture lovers</li>
+              <li>Favorite-saving tools so your dream India itinerary stays organized</li>
+            </ul>
+          </div>
+          <div class="insight-card reveal">
+            <p class="insight-card__label">This season’s highlight</p>
+            <h3>Kerala Backwater Escape</h3>
+            <p>Glide through Alleppey canals, stay in a houseboat, and pair it with tea gardens in Munnar.</p>
+            <a class="button-secondary" href="destination.html?id=kerala">See travel guide</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Traveler stories</p>
+            <h2>What explorers are saying</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+              <p>
+                “The destination guide for Jaipur helped us plan a perfect three-day trip. The palace and food suggestions were exactly what we needed.”
+              </p>
+              <strong>Rhea & Kunal</strong>
+              <span>Mumbai</span>
+            </article>
+            <article class="testimonial-card reveal">
+              <p>
+                “I loved the clear budget and best-time-to-visit tips. It made picking between Manali and Kerala so much easier.”
+              </p>
+              <strong>Shruti Menon</strong>
+              <span>Bengaluru</span>
+            </article>
+            <article class="testimonial-card reveal">
+              <p>
+                “Beautiful interface, quick filters, and the favorites feature made it feel like a real trip-planning companion.”
+              </p>
+              <strong>Arjun Patel</strong>
+              <span>Ahmedabad</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand--footer" href="index.html">
+            <span class="brand-mark">IT</span>
+            <span>
+              <strong>Incredible India Trails</strong>
+              <small>Made for curious travelers</small>
+            </span>
+          </a>
+          <p>
+            Discover India’s most memorable places with curated inspiration, practical travel information,
+            and local-friendly planning tips.
+          </p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="destinations.html">Destinations</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Categories</h3>
+          <a href="destinations.html?type=Heritage">Heritage</a>
+          <a href="destinations.html?type=Beaches">Beaches</a>
+          <a href="destinations.html?type=Mountains">Mountains</a>
+          <a href="destinations.html?type=Spiritual">Spiritual</a>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
